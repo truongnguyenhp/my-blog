@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog của Trường Nguyễn</title>
+</head>
+<body>
+    <header>
+        <h1>Chào mừng đến với Blog của Trường Nguyễn</h1>
+        <p>Nơi chia sẻ những điều thú vị về lập trình và cuộc sống</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Bài viết</a></li>
+            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="#">Liên hệ</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+            <h2>Bài viết đầu tiên: Học HTML cùng AI</h2>
+            <p><small>Đăng ngày: <time datetime="2026-02-21">21/02/2026</time></small></p>
+            <img src="https://via.placeholder.com/400x200" alt="Hình minh họa học HTML" width="400">
+            <p>Hôm nay tôi bắt đầu học <strong>HTML</strong> với sự hỗ trợ của AI. Thật thú vị khi có thể tạo ra những trang web đầu tay. <em>Cảm giác thật tuyệt!</em></p>
+        </article>
+
+        <article>
+            <h2>Bài viết thứ hai: Semantic HTML là gì?</h2>
+            <p><small>Đăng ngày: <time datetime="2026-02-21">21/02/2026</time></small></p>
+            <img src="https://via.placeholder.com/400x200" alt="Hình minh họa semantic HTML" width="400">
+            <p>Semantic HTML giúp code rõ ràng và dễ bảo trì. <strong>Thay vì dùng div bừa bãi</strong>, chúng ta nên dùng các thẻ có ý nghĩa như <em>header, main, article</em>.</p>
+        </article>
+
+        <section>
+            <h3>Bài viết nổi bật</h3>
+            <ul>
+                <li><a href="#">Cách học lập trình hiệu quả</a></li>
+                <li><a href="#">Top 10 công cụ AI cho dev</a></li>
+                <li><a href="#">Xu hướng vibe coding 2026</a></li>
+            </ul>
+        </section>
+    </main>
+<!-- Thêm vào cuối main hoặc trước footer -->
+<section>
+    <h3>Lịch học trong tuần</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Ngày</th>
+                <th>Môn học</th>
+                <th>Ghi chú</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Thứ hai</td>
+                <td>HTML & CSS</td>
+                <td>Ôn tập thẻ semantic</td>
+            </tr>
+            <tr>
+                <td>Thứ tư</td>
+                <td>JavaScript</td>
+                <td>Biến và hàm</td>
+            </tr>
+            <tr>
+                <td>Thứ sáu</td>
+                <td>React</td>
+                <td>Component cơ bản</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section>
+    <h3>Liên hệ với tôi</h3>
+    <form action="#" method="post">
+        <label for="name">Tên:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Tin nhắn:</label><br>
+        <textarea id="message" name="message" rows="4" cols="40" required></textarea><br><br>
+        <button type="submit">Gửi</button>
+    </form>
+</section>
+<section>
+  <h2>Liên hệ</h2>
+  <form action="#" method="POST">
+    <div>
+      <label for="name">Họ tên:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+      <label for="message">Tin nhắn:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+    </div>
+    <div>
+      <label>Giới tính:</label>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Nam</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Nữ</label>
+    </div>
+    <div>
+      <label>Sở thích:</label>
+      <input type="checkbox" id="coding" name="hobby" value="coding">
+      <label for="coding">Lập trình</label>
+      <input type="checkbox" id="reading" name="hobby" value="reading">
+      <label for="reading">Đọc sách</label>
+    </div>
+    <div>
+      <label for="country">Quốc gia:</label>
+      <select id="country" name="country">
+        <option value="vn">Việt Nam</option>
+        <option value="us">Mỹ</option>
+        <option value="jp">Nhật Bản</option>
+      </select>
+    </div>
+    <div>
+      <button type="submit">Gửi</button>
+      <button type="reset">Nhập lại</button>
+    </div>
+  </form>
+</section>
+<section>
+  <h2>Kỹ năng</h2>
+  <table border="1"> <!-- border chỉ để dễ nhìn, sau này dùng CSS -->
+    <thead>
+      <tr>
+        <th>STT</th>
+        <th>Kỹ năng</th>
+        <th>Mức độ (1-5)</th>
+        <th>Năm kinh nghiệm</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>HTML</td>
+        <td>4</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>CSS</td>
+        <td>3</td>
+        <td>0.5</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>JavaScript</td>
+        <td>2</td>
+        <td>0.2</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+    <aside>
+        <h3>Giới thiệu tác giả</h3>
+        <img src="https://via.placeholder.com/100x100" alt="Ảnh đại diện">
+        <p>Tôi là một người đam mê lập trình, đang theo đuổi con đường trở thành vibe coder chuyên nghiệp.</p>
+        <h4>Danh mục</h4>
+        <ul>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JavaScript</a></li>
+            <li><a href="#">AI</a></li>
+        </ul>
+    </aside>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hồ sơ cá nhân – Nguyễn Văn A</title>
+  <meta name="description" content="Trang hồ sơ cá nhân của Nguyễn Văn A, bao gồm thông tin liên hệ, kỹ năng và dự án.">
+  <meta name="keywords" content="hồ sơ, cá nhân, lập trình viên, portfolio">
+  <meta name="author" content="Nguyễn Văn A">
+</head>
+    <footer>
+        <p>&copy; 2026 - Blog của tôi. Bảo lưu mọi quyền.</p>
+        <p>Theo dõi tôi: <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">GitHub</a></p>
+    </footer>
+</body>
+</html>
